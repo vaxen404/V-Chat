@@ -1,38 +1,59 @@
-# routerP
+# 🚀 V-Chat - Real-Time Dark Messenger
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3 ve WebSocket teknolojileri kullanılarak geliştirilmiş, minimalist ve yüksek performanslı bir anlık mesajlaşma uygulamasıdır. Şık "Dark Mode" arayüzü ile modern bir kullanıcı deneyimi sunar.
 
-## Recommended IDE Setup
+## ✨ Özellikler
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Anlık Mesajlaşma: WebSocket (ws) kütüphanesi ile gecikmesiz, gerçek zamanlı iletişim.
 
-## Recommended Browser Setup
+Modern UI: Göz yormayan, minimalist karanlık tema tasarımı.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Kolay Giriş: Karmaşık formlar olmadan, sadece kullanıcı adıyla hızlıca sohbete katılma.
 
-## Customize configuration
+Otomatik Scroll: Yeni mesaj geldiğinde sohbet penceresi otomatik olarak en aşağıya odaklanır.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Responsive: Hem masaüstü hem de mobil cihazlarda sorunsuz çalışma.
 
-## Project Setup
+## 🛠 Kullanılan Teknolojiler
 
-```sh
-pnpm install
-```
+Frontend: Vue.js 3 (Composition API)
 
-### Compile and Hot-Reload for Development
+Backend: Node.js & Express
 
-```sh
-pnpm dev
-```
+İletişim Katmanı: WebSocket (WS)
 
-### Compile and Minify for Production
+Yönlendirme: Vue Router
 
-```sh
-pnpm build
-```
+## 🚀 Kurulum ve Çalıştırma
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Projeyi Klonlayın
+
+-git clone https://github.com/vaxen404/V-Chat.git
+
+-cd V-Chat
+
+2. Backend Sunucusunu Başlatın
+
+-cd backend
+
+-npm install
+
+-node server.js
+
+-Sunucu varsayılan olarak 3000 portunda çalışacaktır.
+
+3. Frontend Uygulamasını Başlatın
+
+-Ana dizine geri dönün
+
+-npm install
+
+-npm run dev
+
+-Uygulama varsayılan olarak 5173 portunda yayına girecektir.
+
+## 📄 Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına göz atabilirsiniz.
