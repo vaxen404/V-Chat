@@ -30,29 +30,29 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1. Projeyi Klonlayın
 
--git clone https://github.com/vaxen404/V-Chat.git
+- git clone https://github.com/vaxen404/V-Chat.git
 
--cd V-Chat
+- cd V-Chat
 
 2. Backend Sunucusunu Başlatın
 
--cd backend
+- cd backend
 
--npm install
+- npm install
 
--node server.js
+- node server.js
 
--Sunucu varsayılan olarak 3000 portunda çalışacaktır.
+- Sunucu varsayılan olarak 3000 portunda çalışacaktır.
 
 3. Frontend Uygulamasını Başlatın
 
--Ana dizine geri dönün
+- Ana dizine geri dönün
 
--npm install
+- npm install
 
--npm run dev
+- npm run dev
 
--Uygulama varsayılan olarak 5173 portunda yayına girecektir.
+- Uygulama varsayılan olarak 5173 portunda yayına girecektir.
 
 ## 📄 Lisans
 
